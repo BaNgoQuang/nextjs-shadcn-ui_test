@@ -26,18 +26,23 @@ The project includes the following main pages:
 ```bash
 git clone https://github.com/BaNgoQuang/nextjs-shadcn-ui_test
 cd nextjs-shadcn-ui_test
+```
 
 2. **Install dependencies**
+```bash
 npm install
+```
 
 3. **Run the development server**
+```bash
 npm run dev
+```
 
 4. **Open the app in your browser**
 http://localhost:3000
 
 
-Project Structure
+## Project Structure
 
 app/: Next.js App Router pages and layouts
 
@@ -47,7 +52,7 @@ store/: Zustand store for managing application state
 
 styles/: Global CSS and Tailwind configuration
 
-Notes
+## Notes
 The dark mode toggle is located in the navbar and applies globally throughout the app.
 
 The Settings form saves input state via Zustand, so data persists across page navigation and reloads.
@@ -55,3 +60,7 @@ The Settings form saves input state via Zustand, so data persists across page na
 UI elements are consistently styled using Shadcn UI components.
 
 For any questions or feedback, please feel free to reach out.
+
+
+Just replace `https://github.com/BaNgoQuang/nextjs-shadcn-ui_test` with your actual Git repository link.  
+Let me know if you want me to add build, deployment, or testing instructions!
